@@ -88,7 +88,8 @@ function completeCodeFlow(params){
       code: params.code,
       grant_type: 'authorization_code',
       redirect_uri: state.client.redirect_uri,
-      client_id: state.client.client_id
+      client_id: state.client.client_id,
+      withCredentials: true
     },
   }).then(function(authz){
        for (var i in params) {
