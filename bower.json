@@ -1,0 +1,21 @@
+{
+  "name": "fhir-js-client",
+  "description": "JavaScript client for Fast Healthcare Interoperability Resources",
+  "main": "dist/fhir-client.js",
+  "authors": [
+    "Josh Mandel <joshua.mandel@childrens.harvard.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sll-mdilab/client-js",
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
