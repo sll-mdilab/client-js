@@ -1169,6 +1169,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }, function(err) {
 	                fail(err);
 	            });
+	        }, function(err) {
+	            fail(err);
 	        });
 	    };
 	    
@@ -1185,6 +1187,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	            },
 	            function () {
 	                ret.resolve(results);
+	            },
+	            function (err) {
+	                ret.reject(err);
 	            }
 	        );
 	          
